@@ -14,6 +14,7 @@
     * It has all configurations, database, sample data, ...
     * No setup needed
 
+<br><br>
 ##  Option 1: Run a container that is ready to go
 An image with all the configurations is available. All you have to do is pull the image and start a container.
 This image was created from this repo as base wordpress, configurations applied and new image commited.
@@ -56,6 +57,7 @@ Database root user:
    * Password: password
 
 
+<br><br>
 ##  Option 2: Run base container with only WordPress and database then restore site from a backup
 For this option you will just run clean install of WordPress, install a plugin and restore the site from a backup.
 The backup is provided in ```/backups/localstore_wordpress_backup_wpvivid.zip```
@@ -92,6 +94,7 @@ Database root user:
 * Password: password
 
 
+<br><br>
 ## Option 3: Run base container with only WordPress and database, then configure everything manually.
 
 * Follow first steps from Option 2 to run clean WordPress container
